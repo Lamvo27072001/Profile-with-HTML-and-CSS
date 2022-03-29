@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 8, 86);
+    background-image: url(./images/galaxy.jpg);
+    background-size: cover;
+}
+
+.nav-header {
+    font-size: 1.1em;
+    text-align: center;
+    height: 3cm;
+}
+
+.nav-header ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-header li {
+    display: inline
+}
+
+.nav-header a {
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.nav-header a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#main-image {
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    width: 200px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    color: aqua;
+}
+
+h1:hover {
+    text-decoration: none;
+    color: wheat;
+    text-decoration: underline;
+}
+
+#hr-below-h1 {
+    border: none;
+    border-top: 1px solid;
+    /* or bottom */
+    margin: 1em auto;
+    width: 30em;
+    color: antiquewhite;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    color: aqua;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.social-newtork {
+    position: fixed;
+}
